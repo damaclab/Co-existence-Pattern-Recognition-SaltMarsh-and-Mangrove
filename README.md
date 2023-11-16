@@ -43,4 +43,11 @@ with the environmental variables, would be able to promote decision-making strat
 both academia and stakeholders, especially the foresters/ conservation planners, to regulate the spread of salt marshes
 and the restoration of mangroves as well
 
+## Datasets description
+
+The occurrence records of 11 salt marshes along all the blocks are summarized in \textit{BSM} (dataset of blocks versus salt marshes), where the rows represent the 22 blocks and the columns represent the 11 salt marshes.
+Besides the salt marsh records, three more datasets have been generated for inner, middle, and outer estuarine blocks \cite{danda2017state}.
+These three datasets are denoted as OEBM, MEBM, and IEBM (dataset of outer estuarine blocks, middle estuarine blocks, and, inner estuarine blocks, respectively) where each of these contains the presence record of the estuary-specific distinct salt marshes, mangroves, and mangrove associates data, and other environmental parameters (such as salinity, pH, soil texture, and tidal amplitude) across the columns.
+The rows represent the identified blocks for the outer, middle, and inner estuarine regions.
+The list of salt marshes, mangroves, and mangrove associates, that have been considered in this study, are listed in Table \ref{table:mangrovelist}.
 
