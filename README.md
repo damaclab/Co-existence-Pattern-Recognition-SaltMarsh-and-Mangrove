@@ -74,7 +74,8 @@ The whole framework has been depicted in 3 parts. After data gathering and prepr
 
 ## Sample rules
 
- Rule for presence association among the salt marshes (example of single dimensional association rule).
+1. Rule for presence association among the salt marshes (example of single dimensional association rule).
+
 [Presence Tamarix dioica = 1] ⇒
 [Presence {Tamarix gallica = 1, Tamarix troupii = 1, Suaeda maritima = 1}]
 with support = 10, confidence = 1]
