@@ -60,4 +60,4 @@ The whole framework has been depicted in 3 parts. After data gathering and prepr
 
 ![Model](stageB_flowchart.png)
 
- <img src="stageB_flowchart.png" width="100" height="100">
+ <img src="stageB_flowchart.png" width="500" height="500">
