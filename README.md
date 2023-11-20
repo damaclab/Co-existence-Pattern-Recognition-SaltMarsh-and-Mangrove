@@ -53,9 +53,13 @@ The rows represent the identified blocks for the outer, middle, and inner estuar
 
 The whole framework has been depicted in 3 parts. After data gathering and preprocessing, the next steps are summarised in Stage A and Stage B.
 
-<img src="preprocessing.png" width="500" height="250">
-<figcaption>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</figcaption>
+<img src="preprocessing.png" width="500" height="200">
+<figcaption>The proposed framework</figcaption>
+
 
  <img src="stageA_flowchart.png" width="500" height="500">
+ <figcaption>Stage A of the proposed framework</figcaption>
+
  
  <img src="stageB_flowchart.png" width="500" height="500">
+ <figcaption>Stage B of the proposed framework</figcaption>
