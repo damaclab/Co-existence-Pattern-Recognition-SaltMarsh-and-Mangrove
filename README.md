@@ -55,4 +55,8 @@ The whole framework has been depicted in 3 parts. After data gathering and prepr
 
 ![Model](preprosessing.png)
 
+![Model](stageA_flowchart.png)
+
+![Model](stageB_flowchart.png)
+
 
