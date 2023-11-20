@@ -68,9 +68,8 @@ The whole framework has been depicted in 3 parts. After data gathering and prepr
 
 ## Tools used
 
-- FIST
-- CellBiClust
-- SPSS
+- FIST: Tool for association rule mining and biclustering [1]
+- SPSS: Statistical tool for multidimensional scaling
 
 ## Sample rules
 
@@ -78,5 +77,83 @@ The whole framework has been depicted in 3 parts. After data gathering and prepr
 
 [Presence Tamarix dioica = 1] ⇒
 [Presence {Tamarix gallica = 1, Tamarix troupii = 1, Suaeda maritima = 1}]
-with support = 10, confidence = 1]
+with support = 10, confidence = 1
 
+2. Rule for salt marsh association with mangrove and mangrove associates (example of inter multidimensional association
+rule for Suaeda maritima).
+
+[Salt Marsh Suaeda maritima = Present] ⇒
+[Salinity = Brackish water, pH = Moderately alkaline, Soil texture = Clay loam, Tidal height = Moderate,
+Mangrove {Avicennia officinalis = Abundant, Aglaia cuculata = Occasional, Bruguiera gymnorhiza = Abundant, Bruguiera sexangula = Frequent,
+Excoecaria agallocha = Abundant, Heriatiera fomes = Abundant, Phoenix paludosa = Abundant, Nypa fruticans = Frequent, Sonneratia apetala =
+Abundant, Sonneratia caseolaris = Frequent, Xylocarpus mekongensis = Frequent}
+Mangrove Associate {Acanthus ilicifolius = Frequnet, Brownlowia tersa = Frequent, Cerbera odollam = Occasional, Clerodendrum inerme =
+Abundant, Crinum defixum = Abundant, Cyperus exaltatus = Rare, Cynometra ramiflora = Frequent, Derris trifoliata = Abundant, Fimbristylis
+ferruginea = Rare, Intsia bijuga = Occasional, Myriostachya wightiana = Frequent, Pentatropis capensis = Abundant, Porteresia coarctata =
+Abundant, Scirpus littoralis = Rare }]
+with support = 8, confidence = 1
+
+3. Rule for mangrove association with salt marsh and other mangroves (example of hybrid multidimensional association rule
+for Sonneratia griffithii).
+
+[Mangrove Sonneratia griffithii = Abundant] ⇒
+[Salt Marsh Aeluropus lagopoides = Present,
+Salinity in TDS (g/L)= Sea water, pH = Slightly alkaline, Soil texture = Silt Loam, Tidal height = Maximum,
+Mangrove {Bruguiera cylindrica = Abundant, Bruguiera parviflora = Abundant, Ceriops tagal = Abundant, Avicennia alba = Abundant, Avicennia
+marina = Abundant, Phoenix paludosa = Abundant, Aegialitis rotundifolia = Abundant, Excoecaria agallocha = Abundant}]
+
+4.  Co-existence pattern of Heritiera fomes (Endangered species) with salt marshes and other rare/ frequent/ abundant mangroves/ mangrove associates and influencing environmental factors:
+
+[Mangrove Heritiera fomes = Abundant] ⇒
+[Salt Marsh Suaeda maritima = Present,
+Salinity = Brackish water, pH = Moderately alkaline, Soil texture = Clay loam, Tidal height = Moderate,
+Mangrove {Avicennia officinalis = Abundant, Aglaia cuculata = Occasional, Bruguiera gymnorrhiza = Abundant, Bruguiera sexangula = Frequent,
+Cynometra ramiflora = Frequent, Excoecaria agallocha = Abundant, Nypa fruticans = Frequent, Phoenix paludosa = Abundant, Sonneratia apetala
+= Abundant, Sonneratia caseolaris = Frequent, Xylocarpus mekongensis = Frequent}
+Mangrove Associate {Acanthus ilicifolius = Frequent, Brownlowia tersa = Frequent, Cerbera odollam = Occasional, Clerodendrum inerme =
+Abundant, Crinum defixum = Abundant, Cyperus exaltatus = Rare, Derris trifoliata = Abundant, Fimbristylis ferruginea = Rare, Intsia bijuga =
+Occasional, Myriostachya wightiana = Frequent, Pentatropis capensis = Abundant, Porteresia coarctata = Abundant, Sarcolobus globosus =
+Abundant, Scirpus littoralis = Rare}]
+support = 7, confidence = 1
+
+5. Co-existence status of Brownlowia tersa, (Near Threatened) with salt marshes and other rare/ frequent/ abundant mangroves/ associates and influencing environmental factors:
+   
+[Mangrove Brownlowia tersa = Frequent] ⇒
+[SaltMarsh Suaeda maritima = Present,
+Salinity = Brackish water, pH = Moderately alkaline, Soil texture = Clay loam, Tidal height = Moderate,
+Mangrove {Avicennia officinalis = Abundant, Aglaia cuculata = Occasional, Bruguiera gymnorrhiza = Abundant, Bruguiera sexangula = Frequent,
+Clerodendrum inerme = Abundant, Heriatiera fomes = Abundant, Intsia bijuga = Occasional, Nypa fruticans = Frequent, Phoenix paludosa =
+Abundant, Sonneratia apetala = Abundant, Sonneratia caseolaris = Frequent, Xylocarpus mekongensis = Frequent},
+Mangrove Associate {Acanthus ilicifolius = Frequent, Cerbera odollam = Occasional, Crinum defixum = Abundant, Cynometra ramiflora =
+Frequent, Cyperus exaltatus = Rare, Derris trifoliata = Abundant, Excoecaria agallocha = Abundant, Fimbristylis ferruginea = Rare, Myriostachya
+wightiana = Frequent, Pentatropis capensis = Abundant, Porteresia coarctata = Abundant, Sarcolobus globosus = Abundant, Scirpus littoralis =
+Rare}]
+support = 7, confidence = 1
+
+6.  Co-existence status of Phoenix paludosa (Near Threatened) with salt marshes and other rare/ frequent/ abundant mangroves/ associates and influencing environmental factors:
+   
+[Mangrove Phoenix paludosa = Abundant] ⇒
+[Salt marsh Suaeda maritima = Present,
+Salinity = Brackish water, pH = Moderately alkaline, Soil texture = Clay loam, Tidal height = Moderate,
+Mangrove {Avicennia officinalis = Abundant, Scirpus littoralis = Rare, Sonneratia caseolaris = Frequent, Xylocarpus mekongensis = Frequent],
+Nypa fruticans = Frequent, Aglaia cuculata = Occasional, Bruguiera gymnorrhiza = Abundant, Bruguiera sexangula = Frequent, Heriatiera fomes =
+Abundant, Sonneratia apetala = Abundant},
+Mangrove Associate {Acanthus ilicifolius = Frequent, Brownlowia tersa = Frequent, Cerbera odollam = Occasional, Clerodendrum inerme =
+Abundant, Crinum defixum = Abundant, Cyperus exaltatus = Rare, Cynometra ramiflora = Frequent, Derris trifoliata = Abundant, Fimbristylis
+ferruginea = Rare, Intsia bijuga = Occasional, Myriostachya wightiana = Frequent, Pentatropis capensis = Abundant, Porteresia coarctata =
+Abundant, Sarcolobus globosus = Abundant}],
+support = 8, confidence = 1
+
+7. Co-existence pattern of Ceriops decandra (Near Threatened) with salt marshes and other rare/ frequent/ abundant mangroves/ associates and influencing environmental factors:
+   
+[Mangrove Ceriops decandra = Abundant]
+Salinity in TDS (g/L) = Salt water, pH = Moderately alkaline, Soil texture = Clay, Tidal height = Higher,
+Mangrove {Raizophora apiculata = Abundant, Raizophora mucronata = Abundant, Kandelia candel = Abundant, Aegiceras corniculatum =
+Abundant, Xylocarpus mekongensis = Abundant, Xylocarpus granatum = Abundant, Bruguiera gymnorhiza = Abundant, Excoecaria agallocha =
+Abundant, Avicennia officinalis = Abundant, Avicennia alba = Abundant, Phoenix paludosa = Abundant},
+Mangrove Associate {Finlaysonia obovata = Frequent, Derris scandens = Occasional, Tylophora tenuis = Rare, Sarcolobus globosus = Abundant,
+Acanthus volubilis = Occasional}],
+support = 7, confidence = 1
+
+## References 
+[1]Mondal, K.C., Pasquier, N., Mukhopadhyay, A., Maulik, U., Bandhopadyay, S., 2012. A new approach for association rule mining and bi-clustering using formal concept analysis. In: International Workshop on Machine Learning and Data Mining in Pattern Recognition. Springer, pp. 86–101
