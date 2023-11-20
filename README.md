@@ -1,6 +1,6 @@
 # Co-existence-Pattern-Recognition-SaltMarsh-and-Mangrove
 
-This repository contains framework of an excessive salinity-affected mangrove community restoration approach where hypersalinity could be neutralized by growing suitable saltmarshes.
+This repository contains framework of an excessive salinity-affected mangrove community restoration approach where hypersalinity could be neutralized by growing suitable saltmarshes. Major contributions made here:
 
 • Case study on Sundarban coastal area considering major environmental/habitat factors, such as salinity, pH, soil texture, tidal amplitude, along with the
 occurrence data of mangroves, mangrove associates, and salt marshes and compile 3 different datasets for inner, middle, and outer estuarine species records.
@@ -15,8 +15,6 @@ Authors: Moumita Ghosh, Kartick Chandra Mondal, Anirban Roy
 ## Table of Contents
 
 - [Introduction](#Introduction)
-- [System Prerequisites](#Prerequisites)
-- [Installation](#Installation)
 - [Data Description](#DataDescription)
 - [Association Rule Filtering](#AssociationRuleFiltering)
 - [References](#References)
