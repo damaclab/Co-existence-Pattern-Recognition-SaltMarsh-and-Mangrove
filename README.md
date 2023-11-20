@@ -16,7 +16,7 @@ Authors: Moumita Ghosh, Kartick Chandra Mondal, Anirban Roy
 
 - [Introduction](#Introduction)
 - [Data Description](#DataDescription)
-- [Data Description](#Proposed Framework)
+- [Proposed Framework](#ProposedFramework)
 - [Association Rule Filtering](#AssociationRuleFiltering)
 - [References](#References)
 
