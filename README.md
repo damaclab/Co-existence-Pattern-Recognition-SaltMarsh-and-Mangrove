@@ -16,6 +16,7 @@ Authors: Moumita Ghosh, Kartick Chandra Mondal, Anirban Roy
 
 - [Introduction](#Introduction)
 - [Data Description](#DataDescription)
+- [Data Description](#Proposed Framework)
 - [Association Rule Filtering](#AssociationRuleFiltering)
 - [References](#References)
 
@@ -48,3 +49,8 @@ Besides the salt marsh records, three more datasets have been generated for inne
 These three datasets are denoted as OEBM, MEBM, and IEBM (dataset of outer estuarine blocks, middle estuarine blocks, and, inner estuarine blocks, respectively) where each of these contains the presence record of the estuary-specific distinct salt marshes, mangroves, and mangrove associates data, and other environmental parameters (such as salinity, pH, soil texture, and tidal amplitude) across the columns.
 The rows represent the identified blocks for the outer, middle, and inner estuarine regions.
 
+## Proposed Framework
+
+![Model](preprosessing.png)
+![Model](stageA_fowchart.png)
+![Model](stageB_flowchart.png)
