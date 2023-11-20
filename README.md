@@ -53,7 +53,8 @@ The rows represent the identified blocks for the outer, middle, and inner estuar
 
 The whole framework has been depicted in 3 parts. After data gathering and preprocessing, the next steps are summarised in Stage A and Stage B.
 
-![Model](preprosessing.png)
+
+![Model](preprocessing.png)
 
 ![Model](stageA_flowchart.png)
 
