@@ -17,7 +17,8 @@ Authors: Moumita Ghosh, Kartick Chandra Mondal, Anirban Roy
 - [Introduction](#Introduction)
 - [Data Description](#DataDescription)
 - [Proposed Framework](#ProposedFramework)
-- [Association Rule Filtering](#AssociationRuleFiltering)
+- [Tools used](#ToolsUsed)
+- [Sample Rules](#SampleRules)
 - [References](#References)
 
 ## Introduction
@@ -64,4 +65,17 @@ The whole framework has been depicted in 3 parts. After data gathering and prepr
  <p align="center">
   <figcaption>Stage B of the proposed framework</figcaption>
  <img src="stageB_flowchart.png" width="500" height="500">
+
+## Tools used
+
+- FIST
+- CellBiClust
+- SPSS
+
+## Sample rules
+
+ Rule for presence association among the salt marshes (example of single dimensional association rule).
+[Presence Tamarix dioica = 1] ⇒
+[Presence {Tamarix gallica = 1, Tamarix troupii = 1, Suaeda maritima = 1}]
+with support = 10, confidence = 1]
 
