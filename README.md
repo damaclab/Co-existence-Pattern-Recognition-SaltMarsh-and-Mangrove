@@ -52,14 +52,16 @@ The rows represent the identified blocks for the outer, middle, and inner estuar
 ## Proposed Framework
 
 The whole framework has been depicted in 3 parts. After data gathering and preprocessing, the next steps are summarised in Stage A and Stage B.
-
+<p align="center">
 <img src="preprocessing.png" width="500" height="200">
 <figcaption>The proposed framework</figcaption>
-
-
+<\p>
+ 
+<p align="center">
  <img src="stageA_flowchart.png" width="500" height="500">
  <figcaption>Stage A of the proposed framework</figcaption>
-
- 
+<\p>
+ <p align="center">
  <img src="stageB_flowchart.png" width="500" height="500">
  <figcaption>Stage B of the proposed framework</figcaption>
+<\p>
